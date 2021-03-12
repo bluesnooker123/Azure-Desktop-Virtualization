@@ -47,7 +47,9 @@ namespace AzureVirtualDesktop
             string token = "";
             try
             {
-                var client = new RestClient("https://login.microsoftonline.com/6b358606-462c-40ce-96bc-5b2b81aa6230/oauth2/token");
+                string baseURL = "https://login.microsoftonline.com/" + input_tenant_id.Text + "/oauth2/token";
+                //var client = new RestClient("https://login.microsoftonline.com/6b358606-462c-40ce-96bc-5b2b81aa6230/oauth2/token");
+                var client = new RestClient(baseURL);
                 client.Timeout = -1;
                 var request = new RestRequest(Method.POST);
                 request.AddHeader("Content-Type", "application/x-www-form-urlencoded");

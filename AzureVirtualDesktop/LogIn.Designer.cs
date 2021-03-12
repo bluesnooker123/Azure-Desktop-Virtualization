@@ -34,13 +34,15 @@ namespace AzureVirtualDesktop
             this.label2 = new System.Windows.Forms.Label();
             this.input_client_secret = new System.Windows.Forms.TextBox();
             this.btn_Login = new System.Windows.Forms.Button();
+            this.input_tenant_id = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.Location = new System.Drawing.Point(62, 26);
+            this.label1.Location = new System.Drawing.Point(62, 76);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 20);
             this.label1.TabIndex = 0;
@@ -48,7 +50,7 @@ namespace AzureVirtualDesktop
             // 
             // input_client_id
             // 
-            this.input_client_id.Location = new System.Drawing.Point(134, 28);
+            this.input_client_id.Location = new System.Drawing.Point(134, 77);
             this.input_client_id.Name = "input_client_id";
             this.input_client_id.Size = new System.Drawing.Size(385, 20);
             this.input_client_id.TabIndex = 1;
@@ -57,7 +59,7 @@ namespace AzureVirtualDesktop
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label2.Location = new System.Drawing.Point(30, 86);
+            this.label2.Location = new System.Drawing.Point(30, 123);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(103, 20);
             this.label2.TabIndex = 2;
@@ -65,7 +67,7 @@ namespace AzureVirtualDesktop
             // 
             // input_client_secret
             // 
-            this.input_client_secret.Location = new System.Drawing.Point(134, 86);
+            this.input_client_secret.Location = new System.Drawing.Point(134, 124);
             this.input_client_secret.Name = "input_client_secret";
             this.input_client_secret.Size = new System.Drawing.Size(385, 20);
             this.input_client_secret.TabIndex = 3;
@@ -73,7 +75,7 @@ namespace AzureVirtualDesktop
             // btn_Login
             // 
             this.btn_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btn_Login.Location = new System.Drawing.Point(223, 161);
+            this.btn_Login.Location = new System.Drawing.Point(223, 171);
             this.btn_Login.Name = "btn_Login";
             this.btn_Login.Size = new System.Drawing.Size(139, 50);
             this.btn_Login.TabIndex = 4;
@@ -81,11 +83,30 @@ namespace AzureVirtualDesktop
             this.btn_Login.UseVisualStyleBackColor = true;
             this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
             // 
+            // input_tenant_id
+            // 
+            this.input_tenant_id.Location = new System.Drawing.Point(134, 30);
+            this.input_tenant_id.Name = "input_tenant_id";
+            this.input_tenant_id.Size = new System.Drawing.Size(385, 20);
+            this.input_tenant_id.TabIndex = 6;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label3.Location = new System.Drawing.Point(58, 29);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 20);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "tenant id:";
+            // 
             // LogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(563, 249);
+            this.Controls.Add(this.input_tenant_id);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btn_Login);
             this.Controls.Add(this.input_client_secret);
             this.Controls.Add(this.label2);
@@ -105,5 +126,7 @@ namespace AzureVirtualDesktop
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox input_client_secret;
         private System.Windows.Forms.Button btn_Login;
+        private System.Windows.Forms.TextBox input_tenant_id;
+        private System.Windows.Forms.Label label3;
     }
 }

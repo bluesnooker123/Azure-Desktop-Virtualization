@@ -28,9 +28,7 @@ F:\Freelancer\Awarded\Danila\03_10\Azure Desktop Virtualization\work\Azure-Deskt
 F:\Freelancer\Awarded\Danila\03_10\Azure Desktop Virtualization\work\Azure-Desktop-Virtualization\AzureVirtualDesktop\obj\Debug\AzureVirtualDesktop.csproj.CoreCompileInputs.cache
 F:\Freelancer\Awarded\Danila\03_10\Azure Desktop Virtualization\work\Azure-Desktop-Virtualization\AzureVirtualDesktop\obj\Debug\AzureVirtualDesktop.exe
 F:\Freelancer\Awarded\Danila\03_10\Azure Desktop Virtualization\work\Azure-Desktop-Virtualization\AzureVirtualDesktop\obj\Debug\AzureVirtualDesktop.pdb
-F:\Freelancer\Awarded\Danila\03_10\Azure Desktop Virtualization\work\Azure-Desktop-Virtualization\AzureVirtualDesktop\obj\Debug\AzureVirtualDesktop.csprojAssemblyReference.cache
 F:\Freelancer\Awarded\Danila\03_10\Azure Desktop Virtualization\work\Azure-Desktop-Virtualization\AzureVirtualDesktop\obj\Debug\AzureVirtualDesktop.LogIn.resources
-F:\Freelancer\Awarded\Danila\03_10\Azure Desktop Virtualization\work\Azure-Desktop-Virtualization\AzureVirtualDesktop\obj\Debug\AzureVirtualDesktop.csproj.CopyComplete
 D:\Azure Virtual\Azure-Desktop-Virtualization\AzureVirtualDesktop\bin\Debug\AzureVirtualDesktop.exe.config
 D:\Azure Virtual\Azure-Desktop-Virtualization\AzureVirtualDesktop\bin\Debug\AzureVirtualDesktop.exe
 D:\Azure Virtual\Azure-Desktop-Virtualization\AzureVirtualDesktop\bin\Debug\AzureVirtualDesktop.pdb
@@ -48,3 +46,4 @@ D:\Azure Virtual\Azure-Desktop-Virtualization\AzureVirtualDesktop\obj\Debug\Azur
 D:\Azure Virtual\Azure-Desktop-Virtualization\AzureVirtualDesktop\obj\Debug\AzureVirtualDesktop.csproj.CopyComplete
 D:\Azure Virtual\Azure-Desktop-Virtualization\AzureVirtualDesktop\obj\Debug\AzureVirtualDesktop.exe
 D:\Azure Virtual\Azure-Desktop-Virtualization\AzureVirtualDesktop\obj\Debug\AzureVirtualDesktop.pdb
+F:\Freelancer\Awarded\Danila\03_10\Azure Desktop Virtualization\work\Azure-Desktop-Virtualization\AzureVirtualDesktop\obj\Debug\AzureVirtualDesktop.csprojResolveAssemblyReference.cache
